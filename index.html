@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sue-Ann Lau</title>
+  <meta name="description" content="Sue-Ann Lau: operator, strategist and golf nerd in San Francisco.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <header class="nav">
+    <a class="logo" href="#about">Sue-Ann Lau</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#work">Selected work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===================== TAB 1: ABOUT ===================== -->
+    <div class="page" data-tab="about">
+
+      <!-- HERO -->
+      <section class="hero">
+        <!-- HEADSHOT: save your photo as headshot.jpg in this folder. Until then, initials show instead. -->
+        <div class="headshot">
+          <img src="headshot.jpg" alt="Sue-Ann Lau" onerror="this.remove()">
+          <span aria-hidden="true">SL</span>
+        </div>
+        <ul class="quick-info">
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.6"/></svg>
+            San Francisco, CA
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>
+            <a href="mailto:sueannlau568@gmail.com?subject=Hello%20from%20your%20website&amp;body=Hi%20Sue-Ann%2C%0A%0AI%20came%20across%20your%20website%20and%20would%20love%20to%20connect.%0A%0AI%27m%20reaching%20out%20about%3A%20%0AMy%20company%3A%20%0A%0AThanks%21">sueannlau568@gmail.com</a>
+          </li>
+        </ul>
+        <h1>Hi, I'm Sue-Ann.</h1>
+        <p class="lede">
+          I'm an operator who turns messy, high-stakes problems into clear decisions.
+        </p>
+        <p class="lede-sub">
+          My background spans strategy &amp; operations and business operations across financial services,
+          product and early-stage companies. In practice, that means I love working across teams on complex
+          problems, building programs from the ground up that scale, and getting everyone pointed in the same direction.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#work">See my work</a>
+          <a class="btn" href="mailto:sueannlau568@gmail.com?subject=Resume%20request&amp;body=Hi%20Sue-Ann%2C%0A%0AI%20came%20across%20your%20website%20and%20would%20love%20a%20copy%20of%20your%20resume.%0A%0AI%27m%20hiring%20for%3A%20%0AMy%20company%3A%20%0A%0AThanks%21">Request my resume</a>
+        </div>
+      </section>
+
+      <!-- JOURNEY MAP: cities and labels are set in the script at the bottom of this file -->
+      <section class="journey">
+        <h2>How I got here</h2>
+        <p class="section-intro">Six cities, three continents.</p>
+        <p class="journey-story">
+          My path hasn't been a straight line. I studied history at <strong>NYU</strong> and was set on a PhD,
+          because I loved research and writing. Then, while interning in object acquisitions at a museum,
+          I watched a state museum get outbid by private individuals. I wanted to know how that was
+          financially possible, and why. That question sent me down the rabbit hole of art financing,
+          which lives in the world of private banking.
+        </p>
+        <p class="journey-story">
+          That's what brought me to a global bank in Singapore, managing relationships for
+          ultra-high-net-worth clients. Side projects for the CEO's office turned into a role there,
+          leading transformation work through a leadership transition across Asia.
+        </p>
+        <p class="journey-story">
+          After five years, I wanted to see how the same skills worked somewhere smaller and faster.
+          That took me to <strong>Kellogg</strong> for my MBA, product management at a global golf equipment manufacturer
+          and a VC-backed sports tech startup.
+        </p>
+        <p class="journey-story">
+          Today I'm Chief of Staff at a PE-backed mobile game company, working at the intersection of strategy, growth and operations.
+        </p>
+        <div class="map-wrap">
+          <svg id="journey-map" role="img" aria-label="Map of my journey: Singapore, Abu Dhabi, Shanghai, New York, Evanston, San Francisco"></svg>
+          <button class="replay" type="button" id="journey-replay">↻ Replay</button>
+        </div>
+        <ol class="journey-legend">
+          <li><b>Singapore</b> Where it started</li>
+          <li><b>Abu Dhabi</b> NYU</li>
+          <li><b>Shanghai</b> NYU</li>
+          <li><b>New York City</b> NYU</li>
+          <li><b>Singapore</b> Citigroup</li>
+          <li><b>Evanston</b> Kellogg MBA</li>
+          <li><b>San Francisco</b> Home now</li>
+        </ol>
+      </section>
+
+      <!-- OFF THE CLOCK -->
+      <section>
+        <h2>Off the clock</h2>
+        <div class="about-grid">
+          <div>
+            <h3>Currently</h3>
+            <ul class="offclock">
+              <li>Perfecting a chocolate chip cookie that's thin but still ooey-gooey 🍪</li>
+              <li>Training in zone 2, one easy swim or run at a time</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Ask me about</h3>
+            <ul class="offclock">
+              <li>Reality TV</li>
+              <li>The United World College (UWC) movement</li>
+              <li>Where Middle Eastern and Chinese history meet on the plate
+                <ul class="offclock sub">
+                  <li>My capstone looked at how Chinese Muslims redefined halal dietary practices</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Life dream</h3>
+            <ul class="offclock">
+              <li>Walking the grounds at Augusta with my dad during the Masters ⛳</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ===================== TAB 2: RESUME ===================== -->
+    <div class="page" data-tab="resume">
+      <section>
+        <div class="resume-head">
+          <h2>Resume</h2>
+          <a class="btn" href="mailto:sueannlau568@gmail.com?subject=Resume%20request&amp;body=Hi%20Sue-Ann%2C%0A%0AI%20came%20across%20your%20website%20and%20would%20love%20a%20copy%20of%20your%20resume.%0A%0AI%27m%20hiring%20for%3A%20%0AMy%20company%3A%20%0A%0AThanks%21">Request my resume</a>
+        </div>
+        <p class="section-intro">
+          The big beats, most recent first. The links jump to the full story in my selected work.
+        </p>
+
+        <!-- EXPERIENCE -->
+        <h3 class="tl-heading">Experience</h3>
+        <ol class="timeline">
+          <li>
+            <p class="tl-meta">2025 – Present · San Francisco</p>
+            <h4>Chief of Staff</h4>
+            <p class="tl-org">PE-backed mobile game</p>
+            <p>Run the operating rhythm from monthly reporting to the boardroom, and build tools that help the team move faster</p>
+            <p class="tl-links">See: <a href="#card-ai">An early-warning system</a> · <a href="#card-rhythm">From monthly numbers to the boardroom</a></p>
+          </li>
+          <li>
+            <p class="tl-meta">Winter 2025 · San Francisco</p>
+            <h4>Product Strategy &amp; Operations</h4>
+            <p class="tl-org">VC-backed sports tech startup</p>
+            <p>Designed a new B2B partnership channel, from first customer segment to a playbook built to scale</p>
+            <p class="tl-links">See: <a href="#card-gtm">Identifying another channel of growth</a></p>
+          </li>
+          <li>
+            <p class="tl-meta">Summer 2024 · Boston</p>
+            <h4>Product Management, Golf Balls</h4>
+            <p class="tl-org">Global golf equipment manufacturer</p>
+            <p>Assessed the value segment with golfer research and competitive analysis, and presented a recommendation to senior leadership</p>
+            <p class="tl-links">See: <a href="#card-product">Winning value-focused golfers</a></p>
+          </li>
+          <li>
+            <p class="tl-meta">2018 – 2023 · Singapore</p>
+            <h4>Assistant Vice President, CEO's Office / Strategy &amp; Operations</h4>
+            <p class="tl-org">Global private bank</p>
+            <p>Started client-facing, managing relationships for ultra-high-net-worth clients, then moved into the CEO's office to lead transformation work through a leadership transition across Asia</p>
+            <p class="tl-links">See: <a href="#card-adoption">From paper to app</a> · <a href="#card-launch">Building a client segment from zero</a></p>
+          </li>
+        </ol>
+
+        <!-- EDUCATION -->
+        <h3 class="tl-heading">Education</h3>
+        <ol class="timeline">
+          <li>
+            <p class="tl-meta">2023 – 2025 · Evanston</p>
+            <h4>Master of Business Administration</h4>
+            <p class="tl-org">Kellogg School of Management, Northwestern University</p>
+            <p>Awarded Dean's List</p>
+          </li>
+          <li>
+            <p class="tl-meta">2014 – 2018 · Abu Dhabi · Shanghai · New York City</p>
+            <h4>Bachelor of Arts</h4>
+            <p class="tl-org">New York University</p>
+            <ul class="steps">
+              <li>GPA: 3.78 / 4.00</li>
+              <li>Awarded full scholarship with stipend</li>
+              <li>Major: History</li>
+              <li>Minor: Arabic Language, Chinese Language (Classical Chinese)</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+    </div>
+
+    <!-- ===================== TAB 3: SELECTED WORK ===================== -->
+    <div class="page" data-tab="work">
+      <section>
+        <h2>Selected work</h2>
+        <p class="section-intro">A few problems I've worked on, and how I approached them</p>
+
+        <div class="cards">
+
+          <article class="card" id="card-ai">
+            <p class="tag">PE-backed mobile game | Building with AI </p>
+            <h3>An early-warning system for our player community</h3>
+            <p><b>The problem:</b> players raise bugs and outages in our Discord first, and I noticed we only caught them if someone happened to be reading at the right moment</p>
+            <p><b>What I did:</b> built a fix with AI, starting with something just for me and improving it each round:</p>
+            <ul class="steps">
+              <li><b>v1:</b> a 5-minute daily digest of what players talked about the day before, sent to my email</li>
+              <li><b>v1.5:</b> runs every hour on my laptop and emails me if it spots outages, security incidents or common themes in player feedback</li>
+            </ul>
+            <p><b>Up next:</b> a bot that runs 24/7 and alerts the whole team</p>
+          </article>
+
+          <article class="card" id="card-rhythm">
+            <p class="tag">PE-backed mobile game | Operating rhythm</p>
+            <h3>From monthly numbers to the boardroom</h3>
+            <p><b>The problem:</b> finance, marketing and product each worked from their own numbers and sources, and turning it into clear decisions for leadership and the board meant starting from scratch every time.</p>
+            <p><b>What I did:</b> built a reporting cadence where each layer feeds the next</p>
+            <ul class="steps">
+              <li><b>Monthly: </b> a five-page pack that puts financials beside revenue drivers and player health, with commentary on what moved and why</li>
+              <li><b>Quarterly: </b> board meetings and business reviews with stakeholders, built on the monthly numbers, with a narrative framed around the decisions in front of us</li>
+            </ul>
+            <p><b>Result:</b> one source of truth and one story; the numbers show what happened; the commentary explains why and what we're doing about it</p>
+          </article>
+
+          <article class="card" id="card-gtm">
+            <p class="tag">VC-backed sports tech startup | Go-to-market</p>
+            <h3>Identifying another channel of growth</h3>
+            <p><b>The problem:</b> diversify revenue by selling through businesses, with no partnership program to start from</p>
+            <p><b>What I did:</b></p>
+            <ul class="steps">
+              <li>used segmentation analysis to spot club-fitting studios as a strong fit; they needed flexibility, not a permanent install, which is exactly what a mobile simulator offered</li>
+              <li>designed the program end-to-end: pricing that works for both sides, setup logistics, and recommended a national golf retailer as the first partner for visibility and credibility</li>
+            </ul>
+            <p><b>Result:</b> a playbook built to scale across the startup's franchise network; it went on to launch as a pilot with that retailer </p>
+          </article>
+
+          <article class="card" id="card-product">
+            <p class="tag">Global golf equipment manufacturer | Product strategy</p>
+            <h3>Winning value-focused golfers without lowering the price</h3>
+            <p><b>The problem:</b> the brand already had a value golf ball, but it wasn't winning the share it should</p>
+            <p><b>What I did:</b> surveyed golfers to understand how they shop for value balls, and studied how competing brands at the same price point were packaging and merchandising theirs</p>
+            <p><b>Result:</b> recommended a new SKU pack format that gave golfers more balls for their money without cutting the price</p>
+          </article>
+
+          <article class="card" id="card-adoption">
+            <p class="tag">Global private bank | Change management</p>
+            <h3>From paper to app, one banker and client at a time</h3>
+            <p><b>The problem:</b> bankers and clients still did everything on paper; fields got missed, forms bounced back, compliance checks stalled waiting on incomplete paperwork</p>
+            <p><b>What I did:</b> digitized the forms with Operations and Regulators, then worked directly with bankers to change how they worked with clients; showing them how the app and paperless signing made their days easier, not harder</p>
+            <p><b>Result:</b> double-digit growth in app usage, digital trade confirmations and paperless signing across the region's bankers</p>
+          </article>
+
+          <article class="card" id="card-launch">
+            <p class="tag">Global private bank | 0 to 1</p>
+            <h3>Building a client segment from zero</h3>
+            <p><b>The problem:</b> high-net-worth clients were a major opportunity, but the bank only had a dedicated offering for the tier above them</p>
+            <p><b>What I did:</b></p>
+            <ul class="steps">
+              <li>sized the market, defined who these clients were and pinpointed how their needs differed from ultra-wealthy and everyday banking clients</li>
+              <li>with BizOps, Sales and Product, designed what launch would look like: how clients would be acquired, how the team would be resourced and what would make the offering stand out</li>
+            </ul>
+            <p><b>Result:</b> a launch roadmap with sales coverage and a client pipeline in place, built to support fast growth</p>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <p class="section-intro">Things I'm building on my own time.</p>
+
+        <article class="card project">
+          <div>
+            <p class="tag soon">Coming soon</p>
+            <h3>A Chinatown market guide 市場</h3>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <!-- ===================== TAB 4: CONTACT ===================== -->
+    <div class="page" data-tab="contact">
+      <section class="contact">
+        <h2>Say hello</h2>
+        <p>I'm always up for talking about strategy, golf, or where to get the best roast duck in SF.</p>
+        <div class="cta">
+          <a class="btn primary" href="mailto:sueannlau568@gmail.com?subject=Hello%20from%20your%20website&amp;body=Hi%20Sue-Ann%2C%0A%0AI%20came%20across%20your%20website%20and%20would%20love%20to%20connect.%0A%0AI%27m%20reaching%20out%20about%3A%20%0AMy%20company%3A%20%0A%0AThanks%21">Email me</a>
+          <a class="btn" href="https://www.linkedin.com/in/sue-annlau/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <!-- Visible address + Copy, for visitors whose computer has no email app set up -->
+        <p class="email-line">
+          <span id="email-address">sueannlau568@gmail.com</span>
+          <button type="button" class="copy-btn" id="copy-email">Copy</button>
+        </p>
+      </section>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> Sue-Ann Lau · Made in San Francisco</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Show one tab at a time, based on the #name in the address bar.
+    // Tabs are <div class="page" data-tab="about"> etc. (no id, so the browser doesn't jump-scroll to them).
+    function activate(name) {
+      document.querySelectorAll('.page').forEach(function (p) { p.classList.toggle('active', p.dataset.tab === name); });
+      document.querySelectorAll('.nav nav a').forEach(function (a) { a.classList.toggle('active', a.getAttribute('href') === '#' + name); });
+    }
+    function showPage() {
+      var name = location.hash.replace('#', '') || 'about';
+      var page = document.querySelector('.page[data-tab="' + name + '"]');
+      var inner = !page && document.getElementById(name);
+      var html = document.documentElement;
+      html.style.scrollBehavior = 'auto';
+      if (page) {
+        activate(name);
+        window.scrollTo(0, 0);
+      } else if (inner && inner.closest('.page')) {
+        // A link to something inside a tab (e.g. #card-ai) opens that tab and scrolls to it
+        activate(inner.closest('.page').dataset.tab);
+        window.scrollTo(0, inner.getBoundingClientRect().top + window.scrollY - 90);
+        inner.classList.add('flash');
+        setTimeout(function () { inner.classList.remove('flash'); }, 1600);
+      } else {
+        activate('about');
+        window.scrollTo(0, 0);
+      }
+      setTimeout(function () { html.style.scrollBehavior = ''; }, 50);
+    }
+    window.addEventListener('hashchange', showPage);
+    showPage();
+
+    // Copy email button
+    document.getElementById('copy-email').addEventListener('click', function () {
+      var btn = this, text = document.getElementById('email-address').textContent;
+      function done() { btn.textContent = 'Copied ✓'; setTimeout(function () { btn.textContent = 'Copy'; }, 1800); }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, function () { selectText(); });
+      } else { selectText(); }
+      function selectText() {
+        var r = document.createRange(); r.selectNodeContents(document.getElementById('email-address'));
+        var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+        btn.textContent = 'Press Ctrl+C';
+      }
+    });
+  </script>
+
+  <!-- Journey map (uses the d3 and topojson libraries to draw the world) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script>
+    (function () {
+      // Edit cities here: [longitude, latitude], plus where the label sits (dx, dy in pixels)
+      var stops = [
+        { name: 'Singapore',     lon: 103.8, lat: 1.35,  dx: 0,   dy: 22 },
+        { name: 'Abu Dhabi',     lon: 54.4,  lat: 24.5,  dx: 0,   dy: 22 },
+        { name: 'Shanghai',      lon: 121.5, lat: 31.2,  dx: 0,   dy: -14 },
+        { name: 'New York City', lon: -74.0, lat: 40.7,  dx: 0,   dy: 22 },
+        // revisit: true = same city again (adds a small number badge instead of a new dot)
+        // bend: how the line curves into this stop (negative = curves downward)
+        { name: 'Singapore',     lon: 103.8, lat: 1.35,  revisit: true, bend: -0.22 },
+        { name: 'Evanston',      lon: -87.7, lat: 42.05, dx: -6,  dy: -14, bend: 0.5 },
+        { name: 'San Francisco', lon: -122.4, lat: 37.8, dx: 0,   dy: 22 }
+      ];
+
+      var W = 960, H = 440;
+      var svg = d3.select('#journey-map').attr('viewBox', '0 0 ' + W + ' ' + H);
+      if (svg.empty() || !window.topojson) return;
+
+      // Pacific-centred map so the route reads left to right (Middle East → Asia → US)
+      var projection = d3.geoNaturalEarth1().rotate([-160, 0]);
+      projection.fitExtent([[20, 10], [W - 20, H - 10]], {
+        type: 'MultiPoint',
+        coordinates: [[44, -4], [44, 54], [100, 56], [160, 58], [-120, 56], [-66, 54], [-66, -4], [160, -4]]
+      });
+      var path = d3.geoPath(projection);
+
+      d3.json('https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-110m.json').then(function (world) {
+        svg.append('path')
+          .datum(topojson.feature(world, world.objects.countries))
+          .attr('class', 'land')
+          .attr('d', path);
+
+        var pts = stops.map(function (s) { return projection([s.lon, s.lat]); });
+
+        // Curved hops between consecutive cities
+        var routes = svg.append('g');
+        for (var i = 0; i < pts.length - 1; i++) {
+          var a = pts[i], b = pts[i + 1];
+          var mx = (a[0] + b[0]) / 2, my = (a[1] + b[1]) / 2;
+          var dist = Math.hypot(b[0] - a[0], b[1] - a[1]);
+          var bend = stops[i + 1].bend || 0.35;
+          var lift = Math.sign(bend) * Math.min(dist * Math.abs(bend), bend > 0.4 ? 190 : 120);
+          routes.append('path')
+            .attr('class', 'route')
+            .attr('d', 'M' + a[0] + ',' + a[1] + ' Q' + mx + ',' + (my - lift) + ' ' + b[0] + ',' + b[1]);
+        }
+
+        var cities = svg.append('g').selectAll('g').data(stops).enter().append('g')
+          .attr('class', 'city')
+          .attr('transform', function (d, i) { return 'translate(' + pts[i][0] + ',' + pts[i][1] + ')'; });
+        var small = window.matchMedia('(max-width: 600px)').matches; // bigger numbered dots on phones
+        var R = small ? 20 : 9;
+        // First visit: full dot. Revisit: small badge tucked beside the original dot.
+        cities.each(function (d, i) {
+          var g = d3.select(this);
+          if (d.revisit) {
+            g.attr('class', 'city revisit')
+             .attr('transform', 'translate(' + (pts[i][0] + R * 1.6) + ',' + (pts[i][1] + R * 0.9) + ')');
+          }
+          g.append('circle').attr('r', d.revisit ? R * 0.8 : R);
+          g.append('text').attr('class', 'num').attr('dy', small ? 9 : 3.5).text(i + 1);
+        });
+        cities.filter(function (d) { return !d.revisit; }).append('text').attr('class', 'label')
+          .attr('x', function (d) { return d.dx; })
+          .attr('y', function (d) { return d.dy; })
+          .text(function (d) { return d.name; });
+
+        function play() {
+          var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+          var hop = 900;
+          routes.selectAll('.route').each(function (d, i) {
+            var len = this.getTotalLength();
+            d3.select(this).interrupt()
+              .attr('stroke-dasharray', len + ' ' + len)
+              .attr('stroke-dashoffset', reduce ? 0 : len)
+              .transition().delay(reduce ? 0 : 400 + i * hop).duration(reduce ? 0 : hop - 100)
+              .ease(d3.easeCubicInOut)
+              .attr('stroke-dashoffset', 0);
+          });
+          cities.interrupt().style('opacity', reduce ? 1 : 0)
+            .transition().delay(function (d, i) { return reduce ? 0 : (i === 0 ? 0 : 400 + i * hop - 150); })
+            .duration(reduce ? 0 : 300)
+            .style('opacity', 1);
+        }
+
+        play();
+        document.getElementById('journey-replay').addEventListener('click', play);
+        window.addEventListener('hashchange', function () { if ((location.hash || '#about') === '#about') play(); });
+      }).catch(function () {
+        document.querySelector('.map-wrap').style.display = 'none';
+      });
+    })();
+  </script>
+</body>
+</html>
